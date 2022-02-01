@@ -2,8 +2,7 @@
 # it will get vcpkg from github then install raylib through it 
 # saves a lot of setup time 
 
-git clone https://github.com/microsoft/vcpkg.git
-cd .\vcpkg\
-.\bootstrap-vcpkg.sh
-.\vcpkg integrate install
-.\vcpkg.exe install raylib
+git clone https://github.com/microsoft/vcpkg.git | Out-Null  
+.\vcpkg\bootstrap-vcpkg.bat
+.\vcpkg\vcpkg.exe install raylib
+.\vcpkg\vcpkg.exe integrate install
