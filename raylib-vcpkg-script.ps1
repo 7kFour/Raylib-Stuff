@@ -1,6 +1,5 @@
 # run this wherever you want it to be installed C:\Dev for instance
 # it will get vcpkg from github then install raylib through it 
-# saves a lot of setup time 
 
 git clone https://github.com/microsoft/vcpkg.git | Out-Null  
 
