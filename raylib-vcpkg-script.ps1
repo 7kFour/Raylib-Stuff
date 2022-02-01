@@ -10,8 +10,10 @@ git clone https://github.com/microsoft/vcpkg.git | Out-Null
 #.\vcpkg\vcpkg.exe install raylib
 
 #if you want x64
-.\vcpkg\vcpkg install raylib:x64-windows
+#.\vcpkg\vcpkg install raylib:x64-windows
 
+# using triplet for x64
+.\vcpkg\vcpkg install raylib --triplet=x64-windows
 
 
 
